@@ -1,0 +1,10 @@
+Finding Error from github reprository 
+
+syntax:
+curl <URL> | grep <searching word>
+
+
+real time problem: 
+To find TRACE from github file https://raw.githubusercontent.com/iam-veeramalla/sandbox/main/log/dummylog01122022.log
+
+curl https://raw.githubusercontent.com/iam-veeramalla/sandbox/main/log/dummylog01122022.log | grep TRACE
