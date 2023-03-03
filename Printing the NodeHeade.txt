@@ -1,0 +1,23 @@
+Printing the NodeHeade 
+
+#!/bin/bash
+
+###################
+
+# author : khaja
+##
+#data : 1111
+#
+# this script execute the node health
+#
+# version v1
+#
+######################
+set -x #debug mode
+
+df -h
+
+free -g
+
+
+nproc
