@@ -1,0 +1,17 @@
+To find divisible by 3, divisible by 5, not 3*5 = 15
+
+#!/bin/bash
+
+## math problem
+
+## statement: finding divisibility of 3,5 but it should not divide 15 between 1-100
+
+
+
+for i in {1..100}; do
+  if ( [ `expr $i %3`==0] || [`expr $i %5`==0]) && [`expr $i % 15`!=0];
+then
+    echo $i
+  fi;
+done
+~       
